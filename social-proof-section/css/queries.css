@@ -14,7 +14,7 @@
   .rating {
     font-size: 1.8rem;
   }
- 
+
   .rating {
     padding: 1.2rem 2.4rem;
   }
@@ -55,11 +55,15 @@
 
 @media (max-width: 44.5em) {
   .social-proof-section {
-    max-width: 60%;
+    max-width: 65%;
     margin: 0 auto;
   }
   .grid--2-cols {
     grid-template-columns: 1fr;
+  }
+  .text-box h1,
+  p {
+    text-align: center;
   }
   .ratings-box {
     align-items: center;
@@ -85,6 +89,4 @@
     align-items: center;
     justify-content: center;
   }
-
-  
 }
