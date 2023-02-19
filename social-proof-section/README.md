@@ -106,7 +106,7 @@ I want to focus on the media queries
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@DKKowalski](https://www.frontendmentor.io/profile/@DKKowalski)
+- Frontend Mentor - [@DKKowalski](https://www.frontendmentor.io/profile/DKKowalski)
 - Twitter - [@sewunakodes](https://www.twitter.com/@sewunakodes)
 
 
