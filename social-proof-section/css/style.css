@@ -1,0 +1,157 @@
+/*
+
+Very Dark Magenta: hsl(300, 43%, 22%)
+Soft Pink: hsl(333, 80%, 67%)
+Dark Grayish Magenta: hsl(303, 10%, 53%)
+Light Grayish Magenta: hsl(300, 24%, 96%)
+White: hsl(0, 0%, 100%)
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=League+Spartan:wght@400;500;700&family=Outfit:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "League Spartan", sans-serif;
+}
+
+.attribution {
+  font-size: 1.8rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+ 
+}
+.social-proof-section {
+  padding: 0 1.8rem;
+}
+.container {
+  margin: 10rem auto;
+  max-width: 137rem;
+}
+.grid {
+  display: grid;
+}
+
+.grid--1-cols {
+  grid-template-columns: 1fr;
+  gap: 9.6rem;
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4.8rem;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.heading-primary {
+  font-size: 6.8rem;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  line-height: 0.9;
+}
+
+.text {
+  font-size: 2.2rem;
+  line-height: 1.5;
+  color:  hsl(303, 10%, 53%);
+}
+
+.ratings-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.rating {
+  padding: 1.8rem 3.2rem;
+  font-size: 2.2rem;
+  color: hsl(300, 43%, 22%);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  font-weight:700;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  background-color: hsl(300, 24%, 96%);
+}
+
+.rating-item-1 {
+  align-self: flex-start;
+}
+.rating-item-2 {
+  align-self: center;
+}
+.rating-item-3 {
+  align-self: flex-end;
+}
+
+.card-testimonials {
+  display: flex;
+  gap: 3rem;
+  align-items: start;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+  padding: 4.2rem 2.8rem;
+  border-radius: 1.3rem;
+  background-color: hsl(300, 43%, 22%);
+}
+.header-testimonial {
+  display: flex;
+  align-items: center;
+  gap: 3.6rem;
+}
+
+.header-testimonial img {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.name-and-verification-tag {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.name-and-verification-tag p:first-child {
+  color: #fff;
+}
+
+.name-and-verification-tag p:last-child {
+  color: hsl(333, 80%, 67%);
+}
+
+.testimonial blockquote {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  letter-spacing: 0.15rem;
+  color: #fff;
+}
+
+/* .card-testimonials .testimonial:first-child {
+} */
+
+.card-testimonials .testimonial:nth-child(2) {
+  margin-top: 2.4rem;
+}
+
+.card-testimonials .testimonial:last-child {
+  margin-top: 4.8rem;
+}
