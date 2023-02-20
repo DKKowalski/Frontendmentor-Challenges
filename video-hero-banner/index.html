@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Video Banner</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-box">
+        <h2 class="logo">TechNova</h2>
+        <div class="toggle">
+          <ion-icon class="icon" name="menu-outline"></ion-icon>
+          <ion-icon class="icon" name="close-outline"></ion-icon>
+        </div>
+      </div>
+      <nav class="navigation">
+        <ul class="menu">
+          <li><a class="menu-item" href="#">Home</a></li>
+          <li><a class="menu-item" href="#">Buy</a></li>
+          <li><a class="menu-item" href="#">Sell</a></li>
+          <li><a class="menu-item" href="#">About</a></li>
+          <li><a class="menu-item" href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="showcase container">
+        <video
+          src="./assets/production ID-4087672.mp4"
+          muted
+          autoplay
+          loop
+        ></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>exploring the world</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            delectus magni harum ipsa autem deleniti aliquam veritatis soluta?
+            Aliquam, repudiandae assumenda? Perferendis maiores corrupti ex
+            repellat! Fuga nemo facere nihil.
+          </p>
+          <a class="btn-explore" href="#">Explore</a>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script>
+      const menuIconToggle = document.querySelector(".toggle");
+      const logoBoxToggle = document.querySelector(".logo-box");
+      const menuToggle = document.querySelector(".navigation");
+
+      menuIconToggle.addEventListener("click", () => {
+        menuIconToggle.classList.toggle("active");
+        logoBoxToggle.classList.toggle("active");
+        menuToggle.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
