@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
     <div class="wrapper">
@@ -16,10 +24,14 @@
           <div class="stack-icons stack-icon-3"></div>
         </div>
         <div class="profile">
-          <div class="profile-image">
-            <img src="" alt="profile image" />
+          <div class="profile-image-box">
+            <img
+              class="profile-image"
+              src="./img/1634135165563.jpeg"
+              alt="profile image"
+            />
           </div>
-          <p class="profile-name">Amidu Sewuna Kpandana</p>
+          <h2 class="profile-name">Amidu Sewuna Kpandana</h2>
           <p class="profile-qualifications">
             &lbrack; HTML, CSS, JS, Python, ReactJs &rbrack;
           </p>
@@ -32,15 +44,186 @@
         </div>
         <nav class="Navigation-Tab">
           <ul class="nav-items">
-            <li class="nav-term"><img src="" alt="img"> <a href="#">Bio</a></li>
-            <li class="nav-term"><img src="" alt="img"> <a href="#">Experience</a></li>
-            <li class="nav-term"><img src="" alt="img"> <a href="#">Portfolio</a></li>
-            <li class="nav-term"><img src="" alt="img"> <a href="#">Contact</a></li>
+            <li class="nav-term">
+              <a href="#Bio-section"
+                ><img src="./img/about-me.svg" alt="img" />Bio</a
+              >
+            </li>
+            <li class="nav-term">
+              <a href="#Experience-section"
+                ><img src="./img/office-work.svg" alt="img" />Experience</a
+              >
+            </li>
+            <li class="nav-term">
+              <a href="#Portfolio-section"
+                ><img src="./img/page.svg" alt="img" /> Portfolio</a
+              >
+            </li>
+            <li class="nav-term">
+              <a href="#Contact-section"
+                ><img src="./img/contact.svg" alt="img" /> Contact</a
+              >
+            </li>
           </ul>
         </nav>
       </header>
-      <main></main>
-      <footer>happy coding 🚀🚀🚀</footer>
+      <main>
+        <!--<div class="breadcrumb">
+          <a href="#" class="breadcrumb-link">Bio</a>
+        </div>-->
+        <section id="Bio-section" class="flex">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
+            at voluptates quod quibusdam quas nostrum architecto, tempore
+            voluptate aliquam libero. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Earum non distinctio, necessitatibus dolore
+            perferendis at quasi, doloremque nemo quos vel animi voluptate ex
+            aperiam reiciendis accusantium enim quod! Placeat quo, repellat
+            sequi est possimus in, ullam at ipsa alias minus illo quod. Quas,
+            quis! Ad, ab nesciunt. Voluptatem atque labore eos error aliquam qui
+            doloremque similique ipsum illo, aut quas repellat rem fugit,
+            veritatis temporibus voluptas! Quas, debitis. At, nam. Aperiam vero
+            sapiente asperiores, earum, consequatur harum voluptates dicta
+            fugiat temporibus facilis iure illum praesentium commodi voluptas
+            atque sed totam, magni eum! Quos ex sed natus illum, voluptatibus
+            possimus nesciunt?
+          </p>
+        </section>
+        <!--Experience Section-->
+        <section id="Experience-section">
+          <div class="Experience-box grid">
+            <div class="year-box">2002</div>
+            <div class="separator"></div>
+            <div class="experience-item">
+              <h1>Full-Stack Developer - Freelancer</h1>
+              <p>building with web applications</p>
+            </div>
+          </div>
+          <div class="Experience-box grid">
+            <div class="year-box">2002</div>
+            <div class="separator"></div>
+            <div class="experience-item">
+              <h1>Full-Stack Developer - Freelancer</h1>
+              <p>building with web applications</p>
+            </div>
+          </div>
+          <div class="Experience-box grid">
+            <div class="year-box">2002</div>
+            <div class="separator"></div>
+            <div class="experience-item">
+              <h1>Full-Stack Developer - Freelancer</h1>
+              <p>building with web applications</p>
+            </div>
+          </div>
+        </section>
+        <section id="Portfolio-section">
+          <div class="portfolio-box">
+            <img
+              class="portfolio-image"
+              src="./img/schedule-milestone-2.svg"
+              alt=""
+            />
+            <h1>Portfolio item 1</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Temporibus nostrum quisquam aliquam nobis accusamus, recusandae
+              vero consectetur et, mollitia culpa ut asperiores explicabo
+              laborum unde beatae in nam quam odio?
+            </p>
+          </div>
+          <div class="portfolio-box">
+            <img
+              class="portfolio-image"
+              src="./img/schedule-milestone-2.svg"
+              alt=""
+            />
+            <h1>Portfolio item 1</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Temporibus nostrum quisquam aliquam nobis accusamus, recusandae
+              vero consectetur et, mollitia culpa ut asperiores explicabo
+              laborum unde beatae in nam quam odio?
+            </p>
+          </div>
+          <div class="portfolio-box">
+            <img
+              class="portfolio-image"
+              src="./img/schedule-milestone-2.svg"
+              alt=""
+            />
+            <h1>Portfolio item 1</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Temporibus nostrum quisquam aliquam nobis accusamus, recusandae
+              vero consectetur et, mollitia culpa ut asperiores explicabo
+              laborum unde beatae in nam quam odio?
+            </p>
+          </div>
+          <div class="portfolio-box">
+            <img
+              class="portfolio-image"
+              src="./img/schedule-milestone-2.svg"
+              alt=""
+            />
+            <h1>Portfolio item 1</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Temporibus nostrum quisquam aliquam nobis accusamus, recusandae
+              vero consectetur et, mollitia culpa ut asperiores explicabo
+              laborum unde beatae in nam quam odio?
+            </p>
+          </div>
+        </section>
+        <section id="Contact-section">
+          <div class="contact-box">
+            <img src="./img/location-user.svg" alt="" class="contact-image" />
+            <p class="contact-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio,
+              eos!
+            </p>
+          </div>
+          <div class="contact-box">
+            <img src="./img/envelope-letter.svg" alt="" class="contact-image" />
+            <p class="contact-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio,
+              eos!
+            </p>
+          </div>
+          <div class="contact-box">
+            <img src="./img/mobile-phone-1.svg" alt="" class="contact-image" />
+            <p class="contact-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio,
+              eos!
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-top">
+          <ul class="footer-links">
+            <li class="footer-social-link">
+              <a href="#" class=""
+                ><ion-icon class="icon" name="logo-github"></ion-icon>Github</a
+              >
+            </li>
+            <li class="footer-social-link">
+              <a href="#" class=""
+                ><ion-icon class="icon" name="logo-twitter"></ion-icon
+                >Twitter</a
+              >
+            </li>
+            <li class="footer-social-link">
+              <a href="#" class=""
+                ><ion-icon class="icon" name="logo-facebook"></ion-icon
+                >Facebook</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          created by <a href="#" class="footer-bottom-link">@DKKowalski</a>
+        </div>
+      </footer>
       <script src="./js/main.js"></script>
     </div>
   </body>
